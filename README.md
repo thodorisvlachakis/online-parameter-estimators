@@ -31,7 +31,9 @@ Two systems are studied:
 3. **Nonlinear Roll Angle System**  
    The system describes the roll dynamics of an aircraft:
 
-   $$  \ddot{r}(t) = -a_1 \dot{r}(t) - a_2 \sin(r(t)) + a_3 \dot{r}^2(t) \sin(2r(t)) + b u(t) + d(t)  $$
+
+   $$ \ddot{r}(t) = -a_1 \dot{r}(t) - a_2 \sin(r(t)) + a_3 \dot{r}^2(t) \sin(2r(t)) + b u(t) + d(t) $$
+
 
    where:
    - \(r(t)\) [rad]: roll angle  
