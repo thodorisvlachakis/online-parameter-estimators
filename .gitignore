@@ -1,0 +1,6 @@
+# MATLAB backup files
+*.asv
+*.m~
+
+# Ignore test scripts
+code/tests/
