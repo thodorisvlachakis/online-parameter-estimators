@@ -13,9 +13,7 @@ Two systems are studied:
 
 1. **Mass-Spring-Damper System (MSD)**  
    The system is described by:
-   $$
-   m\ddot{x}(t) + b\dot{x}(t) + kx(t) = u(t)
-   $$
+   $$ m\ddot{x}(t) + b\dot{x}(t) + kx(t) = u(t) $$
    where:
    - \(x(t)\) [m]: displacement  
    - \(m > 0\): mass  
@@ -30,9 +28,7 @@ Two systems are studied:
 
 2. **Nonlinear Roll Angle System**  
    The system describes the roll dynamics of an aircraft:
-   $$
-   \ddot{r}(t) = -a_1 \dot{r}(t) - a_2 \sin(r(t)) + a_3 \dot{r}^2(t) \sin(2r(t)) + b u(t) + d(t)
-   $$
+   $$ \ddot{r}(t) = -a_1 \dot{r}(t) - a_2 \sin(r(t)) + a_3 \dot{r}^2(t) \sin(2r(t)) + b u(t) + d(t) $$
    where:
    - \(r(t)\) [rad]: roll angle  
    - \(a_i > 0, b > 0\): unknown system parameters  
