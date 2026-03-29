@@ -62,6 +62,7 @@ Two systems are studied:
 ---
 
 ## 📂 Repository Structure
+```
 code/
 ├── functions/
 │ ├── composite_stricture_model_adaptive_estimation_MSD.m
@@ -82,7 +83,7 @@ statement/
 report/
 figures_and_results/
 tests/
-
+```
 
 - `functions/` contains all MATLAB functions implementing system models, controllers, and online estimators  
 - `exercises/` contains scripts for each exercise that run simulations and produce plots/results
