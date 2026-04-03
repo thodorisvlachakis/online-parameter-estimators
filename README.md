@@ -63,26 +63,35 @@ Two systems are studied:
 
 ## 📂 Repository Structure
 ```
-code/
-├── functions/
-│ ├── composite_stricture_model_adaptive_estimation_MSD.m
-│ ├── composite_stricture_model_adaptive_estimation_RollAngleSys.m
-│ ├── desiredRollAngleTrajectory.m
-│ ├── gradient_descent_online_estimator_MSD.m
-│ ├── parallel_structure_model_adaptive_estimation_MSD.m
-│ ├── rollAngleDynamicSystem.m
-│ ├── rollAngleSysController.m
-│ └── systemEquationsOfState.m
-└── exercises/
-├── Exercise_1a_Parameter_Estimation_MassSpringDamper_System.m
-├── Exercise_1bc_Parameter_Estimation_MassSpringDamper_System.m
-├── Exercise_2a_Roll_Angle_Sys_Controller_Implementation.m
-└── Exercise_2bc_Parameter_Estimation_Roll_Angle_Sys.m
 
-statement/
-report/
-figures_and_results/
-tests/
+simulation-modeling-online-estimators
+│
+├── code/
+│  ├── exercises/
+│    ├── Exercise_1a_Parameter_Estimation_MassSpringDamper_System.m
+│    ├── Exercise_1bc_Parameter_Estimation_MassSpringDamper_System.m
+│    ├── Exercise_2a_Roll_Angle_Sys_Controller_Implementation.m
+│    └── Exercise_2bc_Parameter_Estimation_Roll_Angle_Sys.m
+│
+│  └── functions/
+│    ├── composite_stricture_model_adaptive_estimation_MSD.m
+│    ├── composite_stricture_model_adaptive_estimation_RollAngleSys.m
+│    ├── desiredRollAngleTrajectory.m
+│    ├── gradient_descent_online_estimator_MSD.m
+│    ├── parallel_structure_model_adaptive_estimation_MSD.m
+│    ├── rollAngleDynamicSystem.m
+│    ├── rollAngleSysController.m
+│    └── systemEquationsOfState.m
+│
+├── statement/
+│  ├── lab02__2025.pdf
+│
+├── report/
+│  ├── report_lab02_2025.pdf
+│
+├── figures_and_results/
+│
+└── tests/
 ```
 
 - `functions/` contains all MATLAB functions implementing system models, controllers, and online estimators  
