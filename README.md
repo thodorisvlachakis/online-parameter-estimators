@@ -1,5 +1,8 @@
-# Simulation and Modeling – Assignment 2
-**Topic:** Real-Time Parameter Estimation (Gradient Descent Method (Online Version), Lyapunov Method)
+# Real-Time Estimators - Gradient Descent Method (Online) & Lyapunov Method 
+This repository contains the implementation of the second assignment of the Simulation & Modeling of Dynamic Systems course.
+The goal of this assignment is to implement realtime (online) estimators using the online version of Gradient Descent Method and Lyapunov Method in order to estimate the unknown parameters of some dynamic system.
+
+**Topic:** Real-Time Parameter Estimation using Gradient Descent Method (Online Version) and Lyapunov Method
 **Course:** Simulation and Modeling of Dynamic Systems  
 
 ## 📘 Description
@@ -64,7 +67,7 @@ Two systems are studied:
 ## 📂 Repository Structure
 ```
 
-simulation-modeling-online-estimators
+online-parameter-estimators
 │
 ├── code/
 │  ├── exercises/
